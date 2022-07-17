@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+    @apply hover:bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent;
+    @apply rounded-lg;
+    @apply bg-gradient-to-l from-green-400 to-blue-500 bg-clip-text text-transparent;
+  }
+}
