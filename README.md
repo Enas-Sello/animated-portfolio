@@ -21,6 +21,7 @@ npx tailwindcss init -p
 # typewriter-effect
 
 [npm i typewriter-effect ]
+[npm i react-typewriter-effect]
 
 # react-slick
 
