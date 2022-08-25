@@ -5,10 +5,10 @@ import Button from '../button/Button';
 const Navbar = () => {
   const navbar = {
     link1: 'home',
-    link2: 'about',
-    link3: 'work',
-    link4: 'skills',
-    link5: 'Contact',
+    link2: 'work',
+    link3: 'skills',
+    link4: 'Contact',
+    link5: 'about',
   };
 
   const [nav, setNave] = useState(false);
@@ -101,7 +101,7 @@ const Navbar = () => {
               {navbar.link3}
             </Link>
           </li>
-          <li onClick={clickHndler} className=" py-6 text-4xl">
+          {/* <li onClick={clickHndler} className=" py-6 text-4xl">
             <Link
               onClick={clickHndler}
               to="skills"
@@ -110,14 +110,14 @@ const Navbar = () => {
             >
               {navbar.link4}
             </Link>
-          </li>
-          <Button />
-          {/* <li onClick={clickHndler} className=" py-6 text-4xl">
+          </li> */}
+          <li onClick={clickHndler} className=" py-6 text-4xl">
            <Link onClick={clickHndler} to="skills" smooth={true} duration={500}>
-             {navbar.link5}
+           {navbar.link4}
            </Link>
-         </li> */}
+          </li> 
           {/* <li className=" py-6 text-4xl">{contact}</li> */}
+          <Button />
         </ul>
       </nav>
     </div>

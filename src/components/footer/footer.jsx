@@ -10,13 +10,13 @@ function Footer() {
       <div name="footer" className="w-full  text-whte justify-center p-4">
         <hr />
         <ul className="flex justify-center text-center text-4xl mt-3 ">
-          <li data-aos="fade-left" >
+          <li >
             <a href="https://github.com/Enas-Sello">
               <AiFillGithub />
             </a>
           </li>
 
-          <li data-aos="fade-up">
+          <li>
             <a href="https://www.linkedin.com/in/enas-sellow-36153219a/">
               <AiOutlineLinkedin />
             </a>
@@ -34,7 +34,7 @@ function Footer() {
             </a>
           </li> */}
 
-          <p data-aos="fade-left" className="text-lg mt-1 ">
+          <p className="text-lg mt-1 ">
             Made My Enas Sello
           </p>
         </ul>

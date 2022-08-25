@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import Home from './components/home/intro';
 import Navbar from './components/nav-bar/nav';
-import Skills from './components/skills/skills';
-import Projects from './components/projects/projects';
-import About from './components/about/about';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import About from './components/About/About';
 import Footer from './components/footer/footer';
 import './App.css';
 import Aos from 'aos';
@@ -21,9 +21,9 @@ Aos.refresh()
     <>
       <Navbar />
       <Home />
-      <About />
       <Projects />
       <Skills />
+      <About />
       <Footer/>
     </>
   );
