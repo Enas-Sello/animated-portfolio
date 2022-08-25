@@ -6,9 +6,9 @@ const Navbar = () => {
   const navbar = {
     link1: 'home',
     link2: 'work',
-    link3: 'skills',
-    link4: 'Contact',
-    link5: 'about',
+    link3: ' about',
+    link4: 'skills',
+    link5: 'Contact',
   };
 
   const [nav, setNave] = useState(false);
@@ -77,7 +77,7 @@ const Navbar = () => {
           }
         >
           <li className=" py-6 text-4xl">
-            <Link onClick={clickHndler} to="/" smooth={true} duration={500}>
+            <Link onClick={clickHndler} to="home" smooth={true} duration={500}>
               {navbar.link1}
             </Link>
           </li>
@@ -94,14 +94,14 @@ const Navbar = () => {
           <li className=" py-6 text-4xl ">
             <Link
               onClick={clickHndler}
-              to="/About"
+              to="About"
               smooth={true}
               duration={500}
             >
               {navbar.link3}
             </Link>
           </li>
-          {/* <li onClick={clickHndler} className=" py-6 text-4xl">
+          <li onClick={clickHndler} className=" py-6 text-4xl">
             <Link
               onClick={clickHndler}
               to="skills"
@@ -110,14 +110,14 @@ const Navbar = () => {
             >
               {navbar.link4}
             </Link>
-          </li> */}
-          <li onClick={clickHndler} className=" py-6 text-4xl">
-           <Link onClick={clickHndler} to="skills" smooth={true} duration={500}>
-           {navbar.link4}
-           </Link>
-          </li> 
-          {/* <li className=" py-6 text-4xl">{contact}</li> */}
+          </li>
           <Button />
+          {/* <li onClick={clickHndler} className=" py-6 text-4xl">
+           <Link onClick={clickHndler} to="skills" smooth={true} duration={500}>
+             {navbar.link5}
+           </Link>
+         </li> */}
+          {/* <li className=" py-6 text-4xl">{contact}</li> */}
         </ul>
       </nav>
     </div>

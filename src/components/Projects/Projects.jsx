@@ -1,5 +1,4 @@
 import './projects.css';
-import './projects.css';
 
 const Projects = () => {
   return (
@@ -24,21 +23,24 @@ const Projects = () => {
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
-              className="card-item shadow-lg group container rounded-md flex
+              className="card-item item1  shadow-lg group container rounded-md flex
               justify-center items-center mx-auto"
             >
               {/* hover */}
-              <div className="opacity-0 group-hover:opacity-100">
+              <div className="opacity-0 group-hover:opacity-100 justify-center ">
                 <span className="text-2xl font-bold text-white tracing-wider">
                   react js
                 </span>
                 <div className=" pt-8 ">
-                  <a href="i">
+                  <a href="https://enas-awad.herokuapp.com/">
                     <button className="text=center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
                       Dmo
                     </button>
                   </a>
-                  <a href="i">
+                  <a
+                    href="https://github.com/Enas-Sello/animated-portfolio"
+                    target="#"
+                  >
                     <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
@@ -51,7 +53,7 @@ const Projects = () => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
               className="
-                            card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
+                            card-item item2 shadow-lg group container rounded-md flex justify-center items-center mx-auto"
             >
               {/* hover */}
               <div className="opacity-0 group-hover:opacity-100">
@@ -59,12 +61,18 @@ const Projects = () => {
                   react js
                 </span>
                 <div className=" pt-8 ">
-                  <a href="i">
-                    <button className="text=center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
+                  <a
+                    href="https://amazon-clone-front-end-five.vercel.app/"
+                    target="#"
+                  >
+                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
                       Dmo
                     </button>
                   </a>
-                  <a href="i">
+                  <a
+                    href="https://github.com/Enas-Sello/Amazon-Clone-FrontEnd"
+                    target="#"
+                  >
                     <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
@@ -77,7 +85,7 @@ const Projects = () => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
               className="
-                            card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
+                           item3 card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
             >
               {/* hover */}
               <div className="opacity-0 group-hover:opacity-100">
@@ -90,7 +98,10 @@ const Projects = () => {
                       Dmo
                     </button>
                   </a>
-                  <a href="i">
+                  <a
+                    href="https://github.com/Enas-Sello/Netflix_clone"
+                    target="#"
+                  >
                     <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
@@ -103,7 +114,7 @@ const Projects = () => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
               className="
-                            card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
+                           item4 card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
             >
               {/* hover */}
               <div className="opacity-0 group-hover:opacity-100">
@@ -116,7 +127,7 @@ const Projects = () => {
                       Dmo
                     </button>
                   </a>
-                  <a href="i">
+                  <a href="i" target="#">
                     <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
