@@ -29,7 +29,7 @@ const Projects = () => {
               {/* hover */}
               <div className="opacity-0 group-hover:opacity-100 justify-center ">
                 <span className="text-2xl font-bold text-white tracing-wider">
-                  react js
+                  portfolio
                 </span>
                 <div className=" pt-8 ">
                   <a href="https://enas-awad.herokuapp.com/">
@@ -57,8 +57,8 @@ const Projects = () => {
             >
               {/* hover */}
               <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracing-wider">
-                  react js
+                <span className="text-2xl font-bold text-gray-800 tracing-wider">
+                  amazon clone
                 </span>
                 <div className=" pt-8 ">
                   <a
@@ -73,7 +73,7 @@ const Projects = () => {
                     href="https://github.com/Enas-Sello/Amazon-Clone-FrontEnd"
                     target="#"
                   >
-                    <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
                   </a>
@@ -89,12 +89,12 @@ const Projects = () => {
             >
               {/* hover */}
               <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracing-wider">
-                  react js
+                <span className="text-2xl font-bold text-white z-20 tracing-wider">
+                  netflex clone
                 </span>
                 <div className=" pt-8 ">
                   <a href="i">
-                    <button className="text=center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
                       Dmo
                     </button>
                   </a>
@@ -102,7 +102,7 @@ const Projects = () => {
                     href="https://github.com/Enas-Sello/Netflix_clone"
                     target="#"
                   >
-                    <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
                   </a>
@@ -123,12 +123,12 @@ const Projects = () => {
                 </span>
                 <div className=" pt-8 ">
                   <a href="i">
-                    <button className="text=center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
                       Dmo
                     </button>
                   </a>
                   <a href="i" target="#">
-                    <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
                   </a>
@@ -149,12 +149,12 @@ const Projects = () => {
                 </span>
                 <div className=" pt-8 ">
                   <a href="i">
-                    <button className="text=center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
                       Dmo
                     </button>
                   </a>
                   <a href="i">
-                    <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
                   </a>
@@ -175,12 +175,12 @@ const Projects = () => {
                 </span>
                 <div className=" pt-8 ">
                   <a href="i">
-                    <button className="text=center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
                       Dmo
                     </button>
                   </a>
                   <a href="i">
-                    <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
                       code
                     </button>
                   </a>
