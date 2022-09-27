@@ -45,7 +45,7 @@ const About = () => {
               joined ITI ( information technology institute ) MERN Stack (HTML
               ,CSS , JavaScript, EcmaScript , Bootstrap, tailwind , React.js ,
               Angulr , React native, node.js , Express.js , Next.js , Nest.js,
-              Mongo db , mongoose .) "
+              Mongo db , mongoose .)
             </p>
           </div>
         </div>
