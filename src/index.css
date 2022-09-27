@@ -6,7 +6,7 @@
   font-family: Gumela;
   src: url('./components/assets/Gumela.otf');
 }
-@layer components{
+@layer base{
 body {
   @apply font-[Gumela];
   @apply bg-[#5031a9];
