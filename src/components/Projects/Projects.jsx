@@ -1,6 +1,35 @@
 import './projects.css';
-
+import portfolio from '../assets/item1.png';
+import Amazon from '../assets/item2.png';
+import admin from '../assets/admin.png';
+import netflex from '../assets/item3.png';
 const Projects = () => {
+  const data = [
+    {
+      name: 'Amazon clone',
+      demo: 'https://amazon-clone-front-end-five.vercel.app/',
+      code: 'https://github.com/Enas-Sello/Amazon-Clone-FrontEnd',
+      img: `${Amazon}`,
+    },
+    {
+      name: 'Portfolio',
+      demo: 'https://github.com/Enas-Sello/animated-portfolio',
+      code: 'https://github.com/Enas-Sello/animated-portfolio',
+      img: `${portfolio}`,
+    },
+    {
+      name: 'Netflex clone',
+      demo: 'https://github.com/Enas-Sello/Netflix_clone',
+      code: 'https://github.com/Enas-Sello/Netflix_clone',
+      img: `${netflex}`,
+    },
+    {
+      name: 'Admin dashbord',
+      demo: 'https://github.com/Enas-Sello/Amazon-Clone-FrontEnd/tree/main/src/Components/Dashboard',
+      code: 'https://github.com/Enas-Sello/Amazon-Clone-FrontEnd',
+      img: `${admin}`,
+    },
+  ];
   return (
     <>
       <div
@@ -19,174 +48,41 @@ const Projects = () => {
             data-aos="fade-up"
             className="grid sm:grid-cols-2 md:grid-cols-3 gap-3"
           >
-            <div
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="card-item item1  shadow-lg group container rounded-md flex
+            {data.map((x) => (
+              <div
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+                className="card-item shadow-lg group container rounded-md flex
               justify-center items-center mx-auto"
-            >
-              {/* hover */}
-              <div className="opacity-0 group-hover:opacity-100 justify-center ">
-                <span className="text-2xl font-bold text-white tracing-wider">
-                  portfolio
-                </span>
-                <div className=" pt-8 ">
-                  <a href="https://enas-awad.herokuapp.com/">
-                    <button className="text=center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
-                      Dmo
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/Enas-Sello/animated-portfolio"
-                    target="#"
-                  >
-                    <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
-                      code
-                    </button>
-                  </a>
+                style={{
+                  backgroundImage: `url(${x.img})`,
+                  backgroundSize: 'cover',
+                  height: '300px',
+                }}
+              >
+                {/* hover */}
+                <div className="opacity-0 group-hover:opacity-100 justify-center ">
+                  <span className="text-4xl font-bold text-yellow-400 tracing-wider">
+                    {x.name}
+                  </span>
+                  <div className=" pt-8 ">
+                    <a href={x.demo} target="#">
+                      <button className="text=center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
+                        Dmo
+                      </button>
+                    </a>
+                    <a href={x.code} target="#">
+                      <button className="text=center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
+                        code
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="
-                            card-item item2 shadow-lg group container rounded-md flex justify-center items-center mx-auto"
-            >
-              {/* hover */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-gray-800 tracing-wider">
-                  amazon clone
-                </span>
-                <div className=" pt-8 ">
-                  <a
-                    href="https://amazon-clone-front-end-five.vercel.app/"
-                    target="#"
-                  >
-                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
-                      Dmo
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/Enas-Sello/Amazon-Clone-FrontEnd"
-                    target="#"
-                  >
-                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
-                      code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="
-                           item3 card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
-            >
-              {/* hover */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white z-20 tracing-wider">
-                  netflex clone
-                </span>
-                <div className=" pt-8 ">
-                  <a href="i">
-                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
-                      Dmo
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/Enas-Sello/Netflix_clone"
-                    target="#"
-                  >
-                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
-                      code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="
-                           item4 card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
-            >
-              {/* hover */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracing-wider">
-                  react js
-                </span>
-                <div className=" pt-8 ">
-                  <a href="i">
-                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
-                      Dmo
-                    </button>
-                  </a>
-                  <a href="i" target="#">
-                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
-                      code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="
-                            card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
-            >
-              {/* hover */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracing-wider">
-                  react js
-                </span>
-                <div className=" pt-8 ">
-                  <a href="i">
-                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
-                      Dmo
-                    </button>
-                  </a>
-                  <a href="i">
-                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
-                      code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="
-                            card-item shadow-lg group container rounded-md flex justify-center items-center mx-auto"
-            >
-              {/* hover */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracing-wider">
-                  react js
-                </span>
-                <div className=" pt-8 ">
-                  <a href="i">
-                    <button className="text-center rounded-lg px-4 m-2 bg-[#4c2da2] font-bold text-lg ">
-                      Dmo
-                    </button>
-                  </a>
-                  <a href="i">
-                    <button className="text-center rounded-lg px-4 m-2  bg-[#4c2da2] font-bold text-lg ">
-                      code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
+            ))}
+
+            {/* هنا */}
           </div>
         </div>
       </div>

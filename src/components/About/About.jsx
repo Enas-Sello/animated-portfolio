@@ -35,16 +35,17 @@ const About = () => {
             </p>
           </div>
           <div data-aos="fade-down-right">
-            <p className=' text-l'>
-              I have started web design with Figma and Adobe XD then I joined
-              ITI ( information technology institute ) MERN Stack. Here are some
-              technologies I have learned with ITI MERN (HTML ,CSS , JavaScript,
-              EcmaScript ,Mongo db , mongoose React js , Angulr , React native,
-              node js , express js , Next js , nest, Bootstrap, tailwind.)
-              #online courses I have taken - Frontend web development with FWD
-              technologies and codeing language's ( HTML , Css , JavaScript ) -
-              UX design process with google growth " Google UX Design
-              Professional"
+            <p className=" text-l mb-14">
+              I graduated from Al-Azher university , studied three diplomas in
+              teaching and psychological health disabilities section . worked as
+              an Arabic teacher for deaf and speechless . I have started my
+              career in web devlopment with FWD frond-end track by the end of
+              2020 after that I started UX design process in 2021 with google
+              and coursera " Google UX Design Professional " and finally I
+              joined ITI ( information technology institute ) MERN Stack (HTML
+              ,CSS , JavaScript, EcmaScript , Bootstrap, tailwind , React.js ,
+              Angulr , React native, node.js , Express.js , Next.js , Nest.js,
+              Mongo db , mongoose .) "
             </p>
           </div>
         </div>

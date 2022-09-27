@@ -1,20 +1,5 @@
-.card-item {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 250px;
-}
-.item1 {
-    background-image: url('../assets/item1.png');
-}
-.item2 {
-    background-image: url('../assets/item2.png');
-}
-.item3 {
-    background-image: url('../assets/item3.png');
-}
-.item4 {
-    /* background-image: url('../assets/item4.png'); */
-}
+
+
 .card-item:hover {
   background-image: linear-gradient(
     to right,

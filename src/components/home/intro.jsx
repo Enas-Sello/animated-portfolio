@@ -14,7 +14,7 @@ const Intro = () => {
       <div className=" flex-1">
         <div
           className="intro
-        flex flex-col justify-center h-screen capitalize max-w[1000px] mx-auto px-8"
+        flex flex-col justify-center h-screen capitalize max-w[1000px] mx-auto px-8 lg:justify-center lg:items-center"
         >
           <p className="font-bold text-xl sm:text-4xl ">hi my name is </p>
           <h1
@@ -56,10 +56,10 @@ const Intro = () => {
         </div>
       </div>
       <div className=" flex-1">
-        <div className="md:block w-100 mt-[25%] mr-16 hidden ">
+        <div className="md:block w-100 mt-32 mr-16 hidden ">
           <img
             data-aos="fade-left"
-            className="rounded-3xl"
+            className="rounded-3xl lg:w-[100%]"
             src={introImg}
             alt="intro"
           ></img>

@@ -1,6 +1,12 @@
-body{font-family: 'Poppins', sans-serif;}
+@font-face {
+  font-family: Gumela;
+  src: url('./components/assets/Gumela.otf');
+}
 
-:root{
-  --color:#2d2e2e;
-  
+body {
+  font-family: Gumela;
+}
+
+:root {
+  --color: #2d2e2e;
 }

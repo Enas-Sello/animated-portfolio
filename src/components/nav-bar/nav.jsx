@@ -6,8 +6,8 @@ const Navbar = () => {
   const navbar = {
     link1: 'home',
     link2: 'work',
-    link3: ' about',
-    link4: 'skills',
+    link3: 'skills',
+    link4: 'about',
     link5: 'Contact',
   };
 
@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="n-left flex grow items-center gap-4">
           <div
             data-aos="zoom-in-right"
-            className="logo font-bold text-3xl ml-4 text-rose-400 "
+            className="logo font-bold text-6xl ml-4 text-rose-400 "
           >
             <h1>Enas</h1>
           </div>
@@ -42,18 +42,18 @@ const Navbar = () => {
               </li>
 
               <li className="">
-                <Link to="About" smooth={true} duration={500}>
+                <Link to="Projects" smooth={true} duration={500}>
                   {navbar.link2}
                 </Link>
               </li>
 
               <li className="">
-                <Link to="Projects" smooth={true} duration={500}>
+                <Link to="skills" smooth={true} duration={500}>
                   {navbar.link3}
                 </Link>
               </li>
               <li className="">
-                <Link to="skills" smooth={true} duration={500}>
+                <Link to="About" smooth={true} duration={500}>
                   {navbar.link4}
                 </Link>
               </li>
@@ -92,12 +92,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className=" py-6 text-4xl ">
-            <Link
-              onClick={clickHndler}
-              to="About"
-              smooth={true}
-              duration={500}
-            >
+            <Link onClick={clickHndler} to="About" smooth={true} duration={500}>
               {navbar.link3}
             </Link>
           </li>
