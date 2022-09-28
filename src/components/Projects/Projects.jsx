@@ -3,6 +3,7 @@ import portfolio from '../assets/item1.png';
 import Amazon from '../assets/item2.png';
 import admin from '../assets/admin.png';
 import netflex from '../assets/item3.png';
+import landing from '../assets/landing.png';
 const Projects = () => {
   const data = [
     {
@@ -28,6 +29,12 @@ const Projects = () => {
       demo: 'https://github.com/Enas-Sello/Amazon-Clone-FrontEnd/tree/main/src/Components/Dashboard',
       code: 'https://github.com/Enas-Sello/Amazon-Clone-FrontEnd',
       img: `${admin}`,
+    },
+    {
+      name: 'langing page',
+      demo: 'https://github.com/Enas-Sello/landing',
+      code: 'https://github.com/Enas-Sello/landing',
+      img: `${landing}`,
     },
   ];
   return (
@@ -59,6 +66,7 @@ const Projects = () => {
                   backgroundImage: `url(${x.img})`,
                   backgroundSize: 'cover',
                   height: '300px',
+                  backgroundRepeat: 'no-repeat',
                 }}
               >
                 {/* hover */}

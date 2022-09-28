@@ -31,7 +31,7 @@ const About = () => {
             <p className=" text-center">
               hi i'm <br />
               {about.name}
-              <br /> take a look around
+              <br />
             </p>
           </div>
           <div data-aos="fade-down-right">
