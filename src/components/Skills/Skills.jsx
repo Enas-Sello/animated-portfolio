@@ -27,7 +27,7 @@ const img = [
   {
     id: 4,
     img: ReactImg,
-    title: "ReactImg",
+    title: "React",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const img = [
   {
     id: 7,
     img: Mongo,
-    title: "MONGO-DB",
+    title: "Mongo-db",
   },
   {
     id: 8,

@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="n-left flex grow items-center gap-4">
           <div
             data-aos="zoom-in-right"
-            className="logo font-bold text-6xl ml-4 text-rose-400 "
+            className="logo font-bold text-4xl ml-4 text-rose-400 "
           >
             <h1>Enas</h1>
           </div>
