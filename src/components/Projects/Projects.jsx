@@ -4,6 +4,7 @@ import Amazon from '../assets/item2.png';
 import admin from '../assets/admin.png';
 import netflex from '../assets/item3.png';
 import landing from '../assets/landing.png';
+import game from '../assets/sello-templet.png';
 const Projects = () => {
   const data = [
     {
@@ -30,11 +31,17 @@ const Projects = () => {
       code: 'https://github.com/Enas-Sello/Amazon-Clone-FrontEnd',
       img: `${admin}`,
     },
+    // {
+    //   name: 'langing page',
+    //   demo: 'https://github.com/Enas-Sello/landing',
+    //   code: 'https://github.com/Enas-Sello/landing',
+    //   img: `${landing}`,
+    // },
     {
-      name: 'langing page',
-      demo: 'https://github.com/Enas-Sello/landing',
+      name: 'gameing landing page',
+      demo: 'https://enas-sello.github.io/sello-template/',
       code: 'https://github.com/Enas-Sello/landing',
-      img: `${landing}`,
+      img: `${game}`,
     },
   ];
   return (
