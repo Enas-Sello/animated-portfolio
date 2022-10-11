@@ -3,7 +3,7 @@ import portfolio from '../assets/item1.png';
 import Amazon from '../assets/item2.png';
 import admin from '../assets/admin.png';
 import netflex from '../assets/item3.png';
-import landing from '../assets/landing.png';
+// import landing from '../assets/landing.png';
 import game from '../assets/sello-templet.png';
 const Projects = () => {
   const data = [
