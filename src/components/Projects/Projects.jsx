@@ -6,7 +6,7 @@ import netflex from '../assets/item3.png';
 // import landing from '../assets/landing.png';
 import game from '../assets/sello-templet.png';
 //hover
-
+import {} from 'react-icons/fa'
 const Projects = () => {
   const data = [
     {
@@ -25,21 +25,18 @@ const Projects = () => {
     },
     {
       name: 'Portfolio',
-      demo: 'https://github.com/Enas-Sello/animated-portfolio',
       code: 'https://github.com/Enas-Sello/animated-portfolio',
       img: `${portfolio}`,
       lang: ['React', 'taillwind'],
     },
     {
       name: 'Netflex clone',
-      demo: 'https://github.com/Enas-Sello/Netflix_clone',
       code: 'https://github.com/Enas-Sello/Netflix_clone',
       img: `${netflex}`,
       lang: ['React', 'taillwind', 'firebase'],
     },
     {
       name: 'Admin dashbord',
-      demo: 'https://github.com/Enas-Sello/Amazon-Clone-FrontEnd/tree/main/src/Components/Dashboard',
       code: 'https://github.com/Enas-Sello/Amazon-Clone-FrontEnd',
       img: `${admin}`,
       lang: [
@@ -50,15 +47,8 @@ const Projects = () => {
         'express',
         'mongodb',
       ],
-    },
-    // {
-    //   name: 'langing page',
-    //   demo: 'https://github.com/Enas-Sello/landing',
-    //   code: 'https://github.com/Enas-Sello/landing',
-    //   img: `${landing}`,
-    // lang: ['HTML','CSS','React'],
 
-    // },
+    },
     {
       name: 'gameing landing page',
       demo: 'https://enas-sello.github.io/sello-template/',
@@ -67,6 +57,14 @@ const Projects = () => {
       lang: ['HTML', 'CSS', 'javaScript'],
     },
   ];
+  // {
+  //   name: 'langing page',
+  //   demo: 'https://github.com/Enas-Sello/landing',
+  //   code: 'https://github.com/Enas-Sello/landing',
+  //   img: `${landing}`,
+  // lang: ['HTML','CSS','React'],
+
+  // },
   console.log(data[0].lang[0]);
   return (
     <>
@@ -105,12 +103,17 @@ const Projects = () => {
                   <span className="text-4xl font-bold text-violet-800  tracing-wider">
                     {x.name}
                   </span>
-                  <div className=" pt-8 ">
-                    <a href={x.demo} target="#">
-                      <button className="text-center rounded-lg px-6 m-4  bg-black font-bold text-xl ">
-                        Dmo
-                      </button>
-                    </a>
+                  <div className=" pt-8 text-center">
+                    {x.demo ? (
+                      <a href={x.demo} target="#">
+                        <button className="text-center rounded-lg px-6 m-4  bg-black font-bold text-xl ">
+                          Dmo
+                        </button>
+                      </a>
+                    ) : (
+                      <></>
+                    )}
+
                     <a href={x.code} target="#">
                       <button className="text-center rounded-lg px-6 m-4  bg-black font-bold text-xl">
                         code
@@ -119,7 +122,9 @@ const Projects = () => {
                   </div>
                   <div className="flex flex-wrap gap-2 text-violet-800 font-bold  text-center ">
                     {x.lang.map((a) => (
-                      <p>{a}</p>
+                      <>
+                        <p>{a}</p>
+                      </>
                     ))}
                   </div>
                 </div>
