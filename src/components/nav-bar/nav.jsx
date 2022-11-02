@@ -7,7 +7,7 @@ const Navbar = () => {
     link1: 'home',
     link2: 'work',
     link3: 'skills',
-    link4: 'about',
+    // link4: 'about',
     link5: 'Contact',
   };
 
@@ -53,9 +53,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="">
-                <Link to="About" smooth={true} duration={500}>
+                {/* <Link to="About" smooth={true} duration={500}>
                   {navbar.link4}
-                </Link>
+                </Link> */}
               </li>
               <li className="">
                 <Button />
@@ -97,14 +97,14 @@ const Navbar = () => {
             </Link>
           </li>
           <li onClick={clickHndler} className=" py-6 text-4xl">
-            <Link
+            {/* <Link
               onClick={clickHndler}
               to="skills"
               smooth={true}
               duration={500}
             >
               {navbar.link4}
-            </Link>
+            </Link> */}
           </li>
           <Button />
           {/* <li onClick={clickHndler} className=" py-6 text-4xl">
