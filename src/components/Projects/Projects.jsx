@@ -3,7 +3,7 @@ import portfolio from '../assets/item1.png';
 import Amazon from '../assets/item2.png';
 import admin from '../assets/admin.png';
 import netflex from '../assets/item3.png';
-// import landing from '../assets/landing.png';
+import shareme from '../assets/shareme.png';
 import game from '../assets/sello-templet.png';
 //hover
 import {} from 'react-icons/fa'
@@ -47,7 +47,6 @@ const Projects = () => {
         'express',
         'mongodb',
       ],
-
     },
     {
       name: 'gameing landing page',
@@ -56,16 +55,15 @@ const Projects = () => {
       img: `${game}`,
       lang: ['HTML', 'CSS', 'javaScript'],
     },
+    {
+      name: 'Share Me App',
+      demo: 'https://shareme-sello.netlify.app/',
+      code: 'https://github.com/Enas-Sello/Social-media-sharing-App',
+      img: `${shareme}`,
+      lang: ['React', 'taillwind', 'santiy'],
+    },
   ];
-  // {
-  //   name: 'langing page',
-  //   demo: 'https://github.com/Enas-Sello/landing',
-  //   code: 'https://github.com/Enas-Sello/landing',
-  //   img: `${landing}`,
-  // lang: ['HTML','CSS','React'],
 
-  // },
-  console.log(data[0].lang[0]);
   return (
     <>
       <div
@@ -90,7 +88,7 @@ const Projects = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1000"
                 className="card-item shadow-lg group container rounded-md flex
-              justify-center items-center mx-auto"
+              justify-center items-center mx-auto object-cover"
                 style={{
                   backgroundImage: `url(${x.img})`,
                   backgroundSize: 'cover',
@@ -120,7 +118,7 @@ const Projects = () => {
                       </button>
                     </a>
                   </div>
-                  <div className="flex flex-wrap gap-2 text-violet-800 font-bold  text-center ">
+                  <div className="flex flex-wrap gap-4 text-violet-800 font-bold  text-center ">
                     {x.lang.map((a) => (
                       <>
                         <p>{a}</p>
