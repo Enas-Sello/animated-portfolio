@@ -7,7 +7,7 @@ const Intro = () => {
     name: 'Enas Awad',
     jobTitle: 'Full Stack Web Developer',
     stack: 'MERN Stack',
-    UI: 'UI/UX Designer',
+    // UI: 'UI/UX Designer',
   };
   return (
     <div name="home" className="flex w-full ">
@@ -28,7 +28,7 @@ const Intro = () => {
             <Typewriter
               className=""
               options={{
-                strings: [`${intro.jobTitle}`, `${intro.stack}`, `${intro.UI}`],
+                strings: [`${intro.jobTitle}`, `${intro.stack}`],
                 autoStart: true,
                 loop: true,
               }}
