@@ -22,17 +22,7 @@ function Footer() {
             </a>
           </li>
 
-          {/* <li>
-            <a href="#">
-              <AiOutlineMail />
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <AiOutlineMobile />
-            </a>
-          </li> */}
+        
 
           <p className="text-lg mt-1 ">
             Made My Enas Sello

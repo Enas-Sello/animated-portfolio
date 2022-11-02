@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 const Intro = () => {
   const intro = {
     name: 'Enas Awad',
-    jobTitle: 'Full stack Web Developer',
+    jobTitle: 'Full Stack Web Developer',
     stack: 'MERN Stack',
     UI: 'UI/UX Designer',
   };
