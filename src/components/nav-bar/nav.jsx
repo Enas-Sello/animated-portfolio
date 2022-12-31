@@ -52,11 +52,11 @@ const Navbar = () => {
                   {navbar.link3}
                 </Link>
               </li>
-              <li className="">
+              {/* <li className="">
                 <Link to="About" smooth={true} duration={500}>
                   {navbar.link4}
                 </Link>
-              </li>
+              </li> */}
               <li className="">
                 <Button />
               </li>
@@ -101,11 +101,11 @@ const Navbar = () => {
               {navbar.link3}
             </Link>
           </li>
-          <li onClick={clickHndler} className=" py-6 text-4xl">
+          {/* <li onClick={clickHndler} className=" py-6 text-4xl">
             <Link onClick={clickHndler} to="About" smooth={true} duration={500}>
               {navbar.link4}
             </Link>
-          </li>
+          </li> */}
           <Button />
           {/* <li onClick={clickHndler} className=" py-6 text-4xl">
            <Link onClick={clickHndler} to="skills" smooth={true} duration={500}>

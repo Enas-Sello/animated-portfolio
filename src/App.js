@@ -23,7 +23,7 @@ Aos.refresh()
       <Home />
       <Projects />
       <Skills />
-      <About />
+      {/* <About /> */}
       <Footer/>
     </>
   );
