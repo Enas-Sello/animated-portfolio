@@ -3,7 +3,7 @@ import Home from './components/home/intro';
 import Navbar from './components/nav-bar/nav';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
-// import About from './components/About/About';
+import About from './components/About/About';
 import Footer from './components/footer/footer';
 import './App.css';
 import Aos from 'aos';
@@ -23,7 +23,7 @@ Aos.refresh()
       <Home />
       <Projects />
       <Skills />
-      {/* <About /> */}
+      <About />
       <Footer/>
     </>
   );

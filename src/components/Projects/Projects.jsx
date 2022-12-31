@@ -67,6 +67,7 @@ const Projects = () => {
   return (
     <>
       <div
+        data-aos="fade-up"
         name="Projects"
         className="w-full md:h-screen text-white capitalize "
       >
@@ -78,10 +79,7 @@ const Projects = () => {
             <p className="py-6 text-2xl">my recent </p>
           </div>
 
-          <div
-            data-aos="fade-up"
-            className="grid sm:grid-cols-2 md:grid-cols-3 gap-3"
-          >
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
             {data.map((x) => (
               <div
                 data-aos="flip-left"

@@ -39,13 +39,15 @@ const About = () => {
               I graduated from Al-Azher university , studied three diplomas in
               teaching and psychological health disabilities section . worked as
               an Arabic teacher for deaf and speechless . I have started my
-              career in web devlopment with FWD frond-end track by the end of
-              2020 after that I started UX design process in 2021 with google
-              and coursera " Google UX Design Professional " and finally I
-              joined ITI ( information technology institute ) MERN Stack (HTML
-              ,CSS , JavaScript, EcmaScript , Bootstrap, tailwind , React.js ,
-              Angulr , React native, node.js , Express.js , Next.js , Nest.js,
-              Mongo db , mongoose .)
+              career at web devlopment with FWD front-end track by the end of
+              2020 & I joined ITI ( information technology institute ) and AAIB
+              bank(Arab african bank) full Stack using MERN for 6-month
+              intensive code camp program , finally 1 October i got ajob as
+              front end Devloper using react at{' '}
+              <strong>Alexon softwear company</strong>
+              {/*               A self-learner , highly motuvated and talented Full Stake web
+              Devloper ,know for his clean code and the quality he delivers.
+ */}
             </p>
           </div>
         </div>
