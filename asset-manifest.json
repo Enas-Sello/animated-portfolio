@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/animated-portfolio/static/css/main.e50ea090.css",
-    "main.js": "/animated-portfolio/static/js/main.5cd11c0c.js",
+    "main.css": "/animated-portfolio/static/css/main.298b5136.css",
+    "main.js": "/animated-portfolio/static/js/main.e91be434.js",
     "static/js/787.1ed0c42c.chunk.js": "/animated-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/sello-templet.png": "/animated-portfolio/static/media/sello-templet.99bcd9a37e01c300f5af.png",
-    "static/media/enas awad.pdf": "/animated-portfolio/static/media/enas awad.4d0bc15ddf1bde7982f9.pdf",
+    "static/media/enas awad.pdf": "/animated-portfolio/static/media/enas awad.76ce9bb1e3f21944ad66.pdf",
+    "static/media/shareme.png": "/animated-portfolio/static/media/shareme.377c373b4f1e65357141.png",
     "static/media/item3.png": "/animated-portfolio/static/media/item3.98f870f132934f6ab95f.png",
     "static/media/item2.png": "/animated-portfolio/static/media/item2.770132400740d81ed23b.png",
     "static/media/admin.png": "/animated-portfolio/static/media/admin.50e0098885d508e7b404.png",
@@ -20,12 +21,12 @@
     "static/media/css.png": "/animated-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/animated-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/animated-portfolio/index.html",
-    "main.e50ea090.css.map": "/animated-portfolio/static/css/main.e50ea090.css.map",
-    "main.5cd11c0c.js.map": "/animated-portfolio/static/js/main.5cd11c0c.js.map",
+    "main.298b5136.css.map": "/animated-portfolio/static/css/main.298b5136.css.map",
+    "main.e91be434.js.map": "/animated-portfolio/static/js/main.e91be434.js.map",
     "787.1ed0c42c.chunk.js.map": "/animated-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e50ea090.css",
-    "static/js/main.5cd11c0c.js"
+    "static/css/main.298b5136.css",
+    "static/js/main.e91be434.js"
   ]
 }
