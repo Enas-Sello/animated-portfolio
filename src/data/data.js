@@ -13,7 +13,7 @@ import query from "../components/assets/reactquery.png"
 import portfolio from "../components/assets/item1.png"
 import Amazon from "../components/assets/item2.png"
 import admin from "../components/assets/admin.png"
-import netflex from "../components/assets/item3.png"
+import netflix from "../components/assets/item3.png"
 import shareme from "../components/assets/shareme.png"
 import game from "../components/assets/sello-templet.png"
 
@@ -91,7 +91,7 @@ export const work = [
   {
     name: "Netflex clone",
     code: "https://github.com/Enas-Sello/Netflix_clone",
-    img: `${netflex}`,
+    img: `${netflix}`,
     langs: ["React", "taillwind", "firebase"],
   },
 
