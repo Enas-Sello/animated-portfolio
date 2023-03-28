@@ -63,7 +63,7 @@ const HeroSection = () => {
           </div>
         </motion.div>
       </div>
-      <div className=" hidden md:block sm:col-span-1 md:col-span-3">
+      <div className=" hidden sm:block sm:col-span-2 md:col-span-3">
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
           className=" my-8 rounded-2xl  "

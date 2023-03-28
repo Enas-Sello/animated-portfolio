@@ -1,4 +1,3 @@
-
 import "aos/dist/aos.css"
 import "./App.css"
 import Home from "./components/home/Home"
@@ -9,13 +8,13 @@ import Footer from "./components/footer/footer"
 import StarsCanvas from "./components/3D/StarsCanvas"
 
 function App() {
-
   return (
     <div className=" hiddenScrollBar scroll-smooth relative z-0  ">
       <div className=" relative z-0">
         <Home />
         <Projects />
         <Skills />
+
         <StarsCanvas />
         <ContactMe />
         <Footer />

@@ -3,7 +3,7 @@ import SectionWrapper from "../../utils/SectionWrapper"
 import emailjs from "@emailjs/browser"
 import { slideIn } from "../../utils/motion"
 import { motion } from "framer-motion"
-import EarthCanvas from "../3D/EarthCanvas"
+import ContactCanvas from "../3D/ContactCanvas"
 const ContactMe = () => {
   const [form, setForm] = useState({
     name: "",
@@ -60,9 +60,9 @@ const ContactMe = () => {
     <div className=" flex xl:flex-row flex-col gap-10 overflow-hidden  ">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]  p-8 rounded-2xl  "
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]  hidden sm:block  p-8 rounded-2xl  "
       >
-        <EarthCanvas />
+        <ContactCanvas />
       </motion.div>
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}

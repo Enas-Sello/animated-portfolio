@@ -1,17 +1,10 @@
-import { OrbitControls, Stage, useGLTF } from "@react-three/drei"
+import { OrbitControls, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import React, { Suspense } from "react"
 import CanvasLoader from "./CanvasLoader"
 import Jack from "./Jack"
-// const Earth = () => {
-//   const earth = useGLTF(earthCanvas)
 
-//   return (
-//     <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
-//   )
-// }
-
-const EarthCanvas = () => {
+const ContactCanvas = () => {
   return (
     <Canvas
       frameloop="demand"
@@ -33,4 +26,4 @@ const EarthCanvas = () => {
   )
 }
 
-export default EarthCanvas
+export default ContactCanvas

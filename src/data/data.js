@@ -8,6 +8,7 @@ import figma from "../components/assets/figma.png"
 import typeScript from "../components/assets/typescript.png"
 import threeJs from "../components/assets/threejs.svg"
 import git from "../components/assets/git.png"
+import query from "../components/assets/reactquery.png"
 // work
 import portfolio from "../components/assets/item1.png"
 import Amazon from "../components/assets/item2.png"
@@ -73,6 +74,11 @@ export const technologies = [
     id: 10,
     img: git,
     title: "git",
+  },
+  {
+    id: 11,
+    img: query,
+    title: "react query",
   },
 ]
 export const work = [
