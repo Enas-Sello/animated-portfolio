@@ -84,7 +84,8 @@ export const technologies = [
 export const work = [
   {
     name: "Portfolio",
-    code: "https://github.com/Enas-Sello/animated-portfolio",
+    code: "https://github.com/Enas-Sello/portfolio1691995",
+    demo: "https://portfolio-enas-sello.netlify.app/",
     img: `${portfolio}`,
     langs: ["React", "taillwind"],
   },
