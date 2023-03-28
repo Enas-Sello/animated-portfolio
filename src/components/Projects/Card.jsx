@@ -28,12 +28,14 @@ const Card = ({ project, index }) => {
             >
               <GoMarkGithub className="w-6 h-6" />
             </div>
+            { project.demo &&
             <div
               onClick={() => window.open(project.demo, "_blank")}
               className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full flex justify-center items-center cursor-pointer"
-            >
+              >
               <FaLink className="w-6 h-6" />
             </div>
+            }
           </div>
         </div>
         <div className=" mt-3 ">
