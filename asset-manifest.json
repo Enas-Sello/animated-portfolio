@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/animated-portfolio/static/css/main.298b5136.css",
-    "main.js": "/animated-portfolio/static/js/main.408fe3e0.js",
+    "main.css": "/animated-portfolio/static/css/main.1ac6e1d5.css",
+    "main.js": "/animated-portfolio/static/js/main.78ac25db.js",
     "static/js/787.1ed0c42c.chunk.js": "/animated-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/jack-transformed.glb": "/animated-portfolio/static/media/jack-transformed.9d07cbe9573b69fe47d1.glb",
     "static/media/sello-templet.png": "/animated-portfolio/static/media/sello-templet.99bcd9a37e01c300f5af.png",
-    "static/media/enas awad.pdf": "/animated-portfolio/static/media/enas awad.76ce9bb1e3f21944ad66.pdf",
+    "static/media/enas awad.pdf": "/animated-portfolio/static/media/enas awad.38587227097b96cc9ecc.pdf",
     "static/media/shareme.png": "/animated-portfolio/static/media/shareme.377c373b4f1e65357141.png",
     "static/media/item3.png": "/animated-portfolio/static/media/item3.98f870f132934f6ab95f.png",
     "static/media/item2.png": "/animated-portfolio/static/media/item2.770132400740d81ed23b.png",
+    "static/media/christmas_ball-transformed.glb": "/animated-portfolio/static/media/christmas_ball-transformed.ccccfdcbb11fa56d9150.glb",
     "static/media/admin.png": "/animated-portfolio/static/media/admin.50e0098885d508e7b404.png",
     "static/media/item1.png": "/animated-portfolio/static/media/item1.4d1a58e31cb5d6412e0f.png",
-    "static/media/Startup life.gif": "/animated-portfolio/static/media/Startup life.1a7efe1dabd601f4b0b0.gif",
+    "static/media/bg.jpeg": "/animated-portfolio/static/media/bg.1a97868b8d7bffa37e83.jpeg",
     "static/media/react2.png": "/animated-portfolio/static/media/react2.86c8d9eba03e29814d2a.png",
-    "static/media/node.png": "/animated-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/Gumela.otf": "/animated-portfolio/static/media/Gumela.0ae83c6988a536716eb4.otf",
-    "static/media/mongo.png": "/animated-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/github.png": "/animated-portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/reactquery.png": "/animated-portfolio/static/media/reactquery.0462f6e95e65caff6fd4.png",
     "static/media/html.png": "/animated-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/animated-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/animated-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/animated-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/animated-portfolio/index.html",
-    "main.298b5136.css.map": "/animated-portfolio/static/css/main.298b5136.css.map",
-    "main.408fe3e0.js.map": "/animated-portfolio/static/js/main.408fe3e0.js.map",
+    "static/media/threejs.svg": "/animated-portfolio/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
+    "main.1ac6e1d5.css.map": "/animated-portfolio/static/css/main.1ac6e1d5.css.map",
+    "main.78ac25db.js.map": "/animated-portfolio/static/js/main.78ac25db.js.map",
     "787.1ed0c42c.chunk.js.map": "/animated-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.298b5136.css",
-    "static/js/main.408fe3e0.js"
+    "static/css/main.1ac6e1d5.css",
+    "static/js/main.78ac25db.js"
   ]
 }
