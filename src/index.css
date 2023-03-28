@@ -2,16 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base{
-body {
-  @apply bg-[#5031a9];
-  @apply text-white
-}
+@layer base {
+  body {
+    @apply text-white;
+  }
   li {
     @apply px-4;
     @apply cursor-pointer;
     @apply text-white;
-    @apply hover:text-yellow-400
+    @apply hover:text-indigo-400;
   }
+ 
 }

@@ -1,32 +1,26 @@
-import { useEffect } from 'react';
-import Home from './components/home/intro';
-import Navbar from './components/nav-bar/nav';
-import Skills from './components/Skills/Skills';
-import Projects from './components/Projects/Projects';
-import About from './components/About/About';
-import Footer from './components/footer/footer';
-import './App.css';
-import Aos from 'aos';
-import 'aos/dist/aos.css'
-// import Contact from './components/';
+import "aos/dist/aos.css"
+import "./App.css"
+import Home from "./components/home/Home"
+import Projects from "./components/Projects/Projects"
+import Skills from "./components/Skills/Skills"
+import ContactMe from "./components/contact/ContactMe"
+import Footer from "./components/footer/footer"
+import StarsCanvas from "./components/3D/StarsCanvas"
 
-function App ()
-{
-  useEffect( () =>
-  {
-    Aos.init()
-Aos.refresh()
-  },[])
+function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-      <Projects />
-      <Skills />
-      {/* <About /> */}
-      <Footer/>
-    </>
-  );
+    <div className=" hiddenScrollBar scroll-smooth relative z-0  ">
+      <div className=" relative z-0">
+        <Home />
+        <Projects />
+        <Skills />
+
+        <StarsCanvas />
+        <ContactMe />
+        <Footer />
+      </div>
+    </div>
+  )
 }
 
-export default App;
+export default App
