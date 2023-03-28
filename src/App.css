@@ -1,12 +1,38 @@
 @font-face {
   font-family: Gumela;
-  src: url('./components/assets/Gumela.otf');
+  src: url("./components/assets/Gumela.otf");
 }
 
 body {
-  font-family: Gumela;
+  font-family: Gumela, "Courier New", Courier, monospace;
+  background: url("/src//components/assets/bg.jpeg");
+  /* background: url("/src//components/assets/herobg.png"); */
 }
 
+.hiddenScrollBar ::-webkit-scrollbar {
+  display: none;
+}
+.hiddenScrollBar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
 :root {
   --color: #2d2e2e;
+}
+.neonText {
+  font-family: "Vibur", cursive;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(84, 43, 188), 0 0 82px rgb(84, 43, 188),
+    0 0 92px rgb(84, 43, 188), 0 0 102px rgb(84, 43, 188),
+    0 0 151px rgb(84, 43, 188);
+}
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
 }
