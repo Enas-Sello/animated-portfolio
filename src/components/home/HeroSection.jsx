@@ -3,18 +3,18 @@ import Typewriter from "typewriter-effect"
 import { Link } from "react-scroll"
 import { slideIn, textVariant } from "../../utils/motion"
 import { motion } from "framer-motion"
-import HeroCanvas from "../3D/HeroCanvas"
 import { heroSection } from "../../data/data"
+import HeroCanvas from "../3D/HeroCanvas"
 import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai"
 import { HiArrowNarrowRight } from "react-icons/hi"
-
+import heroImg from "../assets/heroSection.png"
 const HeroSection = () => {
   return (
     <div className=" grid grid-cols-2 md:grid-cols-5">
-      <div className=" col-span-2 md:col-span-2">
+      <div className=" col-span-2 md:col-span-2 mt-10">
         <motion.div
           variants={textVariant(0.1)}
-          className="intro flex flex-col justify-center items-center h-screen capitalize gap-8 mx-auto px-8 lg:justify-center lg:items-center"
+          className="intro flex flex-col justify-center items-center capitalize gap-8 mx-auto px-8 lg:justify-center lg:items-center"
         >
           <p className="font-bold text-2xl sm:text-4xl ">hi I'M </p>
           <h1 className="text-indigo-800 font-bold text-4xl lg:text-6xl xl:text-8xl text-center">
@@ -63,14 +63,18 @@ const HeroSection = () => {
           </div>
         </motion.div>
       </div>
-      <div className=" hidden sm:block sm:col-span-2 md:col-span-3">
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className=" my-8 rounded-2xl col-span-2 lg:col-span-3 hidden lg:block"
+      >
+        <HeroCanvas />
+        </motion.div>
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className=" my-8 rounded-2xl  "
+          className=" my-8 rounded-2xl col-span-2 lg:col-span-3 w-full h-full  flex lg:hidden justify-center items-center "
         >
-          <HeroCanvas />
-        </motion.div>
-      </div>
+          <img className=" object-cover" src={heroImg} alt="" />
+      </motion.div>
     </div>
   )
 }

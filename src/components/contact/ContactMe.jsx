@@ -4,6 +4,8 @@ import emailjs from "@emailjs/browser"
 import { slideIn } from "../../utils/motion"
 import { motion } from "framer-motion"
 import ContactCanvas from "../3D/ContactCanvas"
+import contact1 from "../assets/contact1.png"
+
 const ContactMe = () => {
   const [form, setForm] = useState({
     name: "",
@@ -57,16 +59,23 @@ const ContactMe = () => {
   // template_5ztxakl
   // PxO3uE03nWJklQ_Pi
   return (
-    <div className=" flex xl:flex-row flex-col gap-10 overflow-hidden  ">
+    <div className=" flex md:flex-row flex-col gap-10 overflow-hidden  justify-center ">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]  hidden sm:block  p-8 rounded-2xl  "
+        className=" hidden lg:block xl:flex-1  xl:h-auto md:h-[550px] h-[350px]  p-8 rounded-2xl  "
       >
         <ContactCanvas />
       </motion.div>
       <motion.div
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className="  flex lg:hidden justify-center items-center md:flex-[0.75] flex-1  h-full w-full  p-8 rounded-2xl  "
+      >
+        <img className=" object-cover" src={contact1} alt="" />
+      </motion.div>
+
+      <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-[#0b011d91] p-8 rounded-2xl  "
+        className="flex-1 lg:flex-[0.75] bg-[#0b011d91] p-8 rounded-2xl  "
       >
         <p className=" text-xl text-indigo-100 mt-2">Get in touch </p>
         <p className="text-4xl font-bold  ">contact .</p>
