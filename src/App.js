@@ -14,7 +14,7 @@ function App() {
         <Home />
         <Projects />
         <Skills />
-        {/* <StarsCanvas /> */}
+        <StarsCanvas />
         <ContactMe />
         <Footer />
       </div>
