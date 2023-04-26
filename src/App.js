@@ -11,10 +11,10 @@ function App() {
   return (
     <div className=" hiddenScrollBar scroll-smooth relative z-0  ">
       <div className=" relative z-0">
+        <StarsCanvas />
         <Home />
         <Projects />
         <Skills />
-        <StarsCanvas />
         <ContactMe />
         <Footer />
       </div>
