@@ -16,6 +16,7 @@ import admin from "../components/assets/admin.png"
 import netflix from "../components/assets/item3.png"
 import shareme from "../components/assets/shareme.png"
 import game from "../components/assets/sello-templet.png"
+import Elmarma from "../components/assets/almarma(2).png"
 
 //
 export const heroSection = {
@@ -84,15 +85,25 @@ export const technologies = [
 export const work = [
   {
     name: "Portfolio",
-    code: "https://github.com/Enas-Sello/animated-portfolio",
+    code: "https://github.com/Enas-Sello/portfolio",
+    demo: "https://enas-sello.github.io/portfolio/",
     img: `${portfolio}`,
-    langs: ["React", "taillwind"],
+    langs: ["React", "taillwind", "AOS"],
+  },
+
+  {
+    name: "Elmarma",
+    demo: "https://elfinaly.com/",
+    img: `${Elmarma}`,
+    langs: ["React", "bootstrap", "react Query"],
   },
   {
     name: "Netflex clone",
     code: "https://github.com/Enas-Sello/Netflix_clone",
     img: `${netflix}`,
     langs: ["React", "taillwind", "firebase"],
+    video:
+      "https://drive.google.com/file/d/1_lnSsloHJP9j_cSsvL62jvkG9uuBRCXa/view",
   },
 
   {
@@ -122,6 +133,8 @@ export const work = [
       "express",
       "mongodb",
     ],
+    video:
+      "https://drive.google.com/file/d/16IQ27xriyxCDpC6ywaq3sE328PZNOpg2/view",
   },
   {
     name: "Admin dashbord",
@@ -135,5 +148,7 @@ export const work = [
       "express",
       "mongodb",
     ],
+    video:
+      "https://drive.google.com/file/d/16IQ27xriyxCDpC6ywaq3sE328PZNOpg2/view",
   },
 ]

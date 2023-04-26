@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 import { fadeIn } from "../../utils/motion"
 import { GoMarkGithub } from "react-icons/go"
 import { FaLink } from "react-icons/fa"
+import { MdVideoCameraBack } from "react-icons/md"
 import { Tilt } from "react-tilt"
 const Card = ({ project, index }) => {
   return (
@@ -22,12 +23,22 @@ const Card = ({ project, index }) => {
             className=" rounded-2xl object-cover w-full h-64"
           />
           <div className=" absolute inset-0 flex justify-end m-3 gap-3">
-            <div
-              onClick={() => window.open(project.code, "_blank")}
-              className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <GoMarkGithub className="w-6 h-6" />
-            </div>
+            {project.code && (
+              <div
+                onClick={() => window.open(project.code, "_blank")}
+                className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <GoMarkGithub className="w-6 h-6" />
+              </div>
+            )}
+            {project.video && (
+              <div
+                onClick={() => window.open(project.video, "_blank")}
+                className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <MdVideoCameraBack className="w-6 h-6" />
+              </div>
+            )}
             {project.demo && (
               <div
                 onClick={() => window.open(project.demo, "_blank")}
