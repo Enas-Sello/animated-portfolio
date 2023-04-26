@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/animated-portfolio/static/css/main.26c0189e.css",
-    "main.js": "/animated-portfolio/static/js/main.9ed942c0.js",
+    "main.js": "/animated-portfolio/static/js/main.829f0ca8.js",
     "static/js/787.1ed0c42c.chunk.js": "/animated-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/jack-transformed.glb": "/animated-portfolio/static/media/jack-transformed.9d07cbe9573b69fe47d1.glb",
     "static/media/sello-templet.png": "/animated-portfolio/static/media/sello-templet.99bcd9a37e01c300f5af.png",
@@ -25,11 +25,11 @@
     "index.html": "/animated-portfolio/index.html",
     "static/media/threejs.svg": "/animated-portfolio/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "main.26c0189e.css.map": "/animated-portfolio/static/css/main.26c0189e.css.map",
-    "main.9ed942c0.js.map": "/animated-portfolio/static/js/main.9ed942c0.js.map",
+    "main.829f0ca8.js.map": "/animated-portfolio/static/js/main.829f0ca8.js.map",
     "787.1ed0c42c.chunk.js.map": "/animated-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26c0189e.css",
-    "static/js/main.9ed942c0.js"
+    "static/js/main.829f0ca8.js"
   ]
 }
