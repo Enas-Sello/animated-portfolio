@@ -13,7 +13,7 @@ function App() {
       <div className=" relative z-0">
         <Home />
         <Projects />
-        {/* <Skills /> */}
+        <Skills />
         {/* <StarsCanvas /> */}
         <ContactMe />
         <Footer />
