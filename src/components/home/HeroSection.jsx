@@ -63,15 +63,15 @@ const HeroSection = () => {
           </div>
         </motion.div>
       </div>
-      <motion.div
+      {/* <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className=" my-8 rounded-2xl col-span-2 lg:col-span-3 hidden lg:block"
       >
         <HeroCanvas />
-        </motion.div>
+        </motion.div> */}
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className=" my-8 rounded-2xl col-span-2 lg:col-span-3 w-full h-full  flex lg:hidden justify-center items-center "
+          className=" my-8 rounded-2xl col-span-2 lg:col-span-3 w-full h-full  flex  justify-center items-center "
         >
           <img className=" object-cover" src={heroImg} alt="" />
       </motion.div>
