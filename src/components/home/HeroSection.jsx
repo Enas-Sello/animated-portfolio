@@ -11,7 +11,7 @@ import heroImg from "../assets/heroSection.png";
 
 export const PrfileLinks = {
   Linkedin: "https://www.linkedin.com/in/enas-sello-36153219a/",
-  Github: "PrfileLinks",
+  Github: "https://github.com/Enas-Sello",
 };
 const HeroSection = () => {
   return (
