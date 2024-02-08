@@ -53,7 +53,7 @@ const HeroSection = () => {
               <AiOutlineLinkedin
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/enas-sellow-36153219a/",
+                    "https://www.linkedin.com/in/enas-sello-36153219a/",
                     "_blank"
                   )
                 }
