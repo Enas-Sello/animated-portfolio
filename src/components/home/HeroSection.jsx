@@ -1,13 +1,18 @@
-import SectionWrapper from "../../utils/SectionWrapper"
-import Typewriter from "typewriter-effect"
-import { Link } from "react-scroll"
-import { slideIn, textVariant } from "../../utils/motion"
-import { motion } from "framer-motion"
-import { heroSection } from "../../data/data"
-import HeroCanvas from "../3D/HeroCanvas"
-import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai"
-import { HiArrowNarrowRight } from "react-icons/hi"
-import heroImg from "../assets/heroSection.png"
+import SectionWrapper from "../../utils/SectionWrapper";
+import Typewriter from "typewriter-effect";
+import { Link } from "react-scroll";
+import { slideIn, textVariant } from "../../utils/motion";
+import { motion } from "framer-motion";
+import { heroSection } from "../../data/data";
+import HeroCanvas from "../3D/HeroCanvas";
+import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import heroImg from "../assets/heroSection.png";
+
+export const PrfileLinks = {
+  Linkedin: "https://www.linkedin.com/in/enas-sello-36153219a/",
+  Github: "PrfileLinks",
+};
 const HeroSection = () => {
   return (
     <div className=" grid grid-cols-2 md:grid-cols-5">
@@ -43,20 +48,13 @@ const HeroSection = () => {
           <div className=" m-3  flex gap-3 items-center justify-center">
             <div className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full flex justify-center items-center cursor-pointer ">
               <AiFillGithub
-                onClick={() =>
-                  window.open("https://github.com/Enas-Sello", "_blank")
-                }
+                onClick={() => window.open(PrfileLinks.Github, "_blank")}
                 className="w-6 h-6 hover:w-9 hover:h-9 "
               />
             </div>
             <div className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full flex justify-center items-center cursor-pointer">
               <AiOutlineLinkedin
-                onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/enas-sello-36153219a/",
-                    "_blank"
-                  )
-                }
+                onClick={() => window.open(PrfileLinks.Linkedin, "_blank")}
                 className="w-6 h-6 hover:w-9 hover:h-9 "
               />{" "}
             </div>
@@ -69,14 +67,14 @@ const HeroSection = () => {
       >
         <HeroCanvas />
         </motion.div> */}
-        <motion.div
-          variants={slideIn("right", "tween", 0.2, 1)}
-          className=" my-8 rounded-2xl col-span-2 lg:col-span-3 w-full h-full  flex  justify-center items-center "
-        >
-          <img className=" object-cover" src={heroImg} alt="" />
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className=" my-8 rounded-2xl col-span-2 lg:col-span-3 w-full h-full  flex  justify-center items-center "
+      >
+        <img className=" object-cover" src={heroImg} alt="" />
       </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default SectionWrapper(HeroSection, "heroSection")
+export default SectionWrapper(HeroSection, "heroSection");

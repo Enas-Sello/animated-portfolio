@@ -1,16 +1,17 @@
-import React, { useState } from "react"
-import { useEffect } from "react"
-import Aos from "aos"
-import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai"
-import { FaBars, FaTimes } from "react-icons/fa"
-import { Link } from "react-scroll"
-import Button from "../button/Button"
+import React, { useState } from "react";
+import { useEffect } from "react";
+import Aos from "aos";
+import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
+import Button from "../button/Button";
+import { PrfileLinks } from "./HeroSection";
 
 const Navbar = () => {
   useEffect(() => {
-    Aos.init()
-    Aos.refresh()
-  }, [])
+    Aos.init();
+    Aos.refresh();
+  }, []);
 
   const navbar = {
     link1: "home",
@@ -18,12 +19,12 @@ const Navbar = () => {
     link3: "skills",
     link4: "About",
     link5: "contactMe",
-  }
+  };
 
-  const [nav, setNave] = useState(false)
+  const [nav, setNave] = useState(false);
   const clickHandler = () => {
-    setNave(!nav)
-  }
+    setNave(!nav);
+  };
   return (
     <div className="fixed w-full z-50 p-4 bg-[#0b011d91]">
       <nav
@@ -122,20 +123,13 @@ const Navbar = () => {
           <div className="flex gap-3 items-center justify-center">
             <li>
               <AiFillGithub
-                onClick={() =>
-                  window.open("https://github.com/Enas-Sello", "_blank")
-                }
+                onClick={() => window.open(PrfileLinks.Github, "_blank")}
                 className="w-6 h-6"
               />
             </li>
             <li>
               <AiOutlineLinkedin
-                onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/enas-sellow-36153219a/",
-                    "_blank"
-                  )
-                }
+                onClick={() => window.open(PrfileLinks.Linkedin, "_blank")}
                 className="w-6 h-6"
               />
             </li>
@@ -145,7 +139,7 @@ const Navbar = () => {
         </ul>
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
