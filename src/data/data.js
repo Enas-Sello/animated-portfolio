@@ -105,7 +105,7 @@ export const work = [
     demo: "https://event-next-bocgl00f1-enas-sello.vercel.app/",
     img: `${eveently}`,
     langs: [
-      "NextJs",
+      "Next Js",
       "React hookform",
       "taillwind",
       "typescript",
