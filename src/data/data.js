@@ -116,12 +116,13 @@ export const work = [
     ],
   },
 
-  {
-    name: "Elmarma",
-    demo: "https://elfinaly.com/",
-    img: `${Elmarma}`,
-    langs: ["React", "bootstrap", "react Query"],
-  },
+  // {
+  //   name: "Elmarma",
+  //   demo: "https://elfinaly.com/",
+  //   img: `${Elmarma}`,
+  //   langs: ["React", "bootstrap", "react Query"],
+  // },
+
   {
     name: "Netflex clone",
     code: "https://github.com/Enas-Sello/Netflix_clone",
@@ -147,8 +148,8 @@ export const work = [
   },
   {
     name: "Amazon clone",
-    demo: "https://amazon-clone-front-end-five.vercel.app/",
-    code: "https://github.com/Enas-Sello/Amazon-Clone-FrontEnd",
+    demo: "https://amazon-clone-g4ct8ssx8-enassellos-projects.vercel.app/",
+    code: "https://github.com/Enas-Sello/amazon-clone",
     img: `${Amazon}`,
     langs: [
       "React",
