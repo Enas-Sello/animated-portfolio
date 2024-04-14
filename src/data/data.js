@@ -115,14 +115,12 @@ export const work = [
       " mongo db",
     ],
   },
-
   // {
   //   name: "Elmarma",
   //   demo: "https://elfinaly.com/",
   //   img: `${Elmarma}`,
   //   langs: ["React", "bootstrap", "react Query"],
   // },
-
   {
     name: "Netflex clone",
     code: "https://github.com/Enas-Sello/Netflix_clone",
