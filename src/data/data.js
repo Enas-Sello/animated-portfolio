@@ -112,7 +112,7 @@ export const work = [
       "next auth",
       "uploadthing",
       "bcryptjs",
-      " mongo db",
+      "mongo db",
     ],
   },
   // {
@@ -144,13 +144,7 @@ export const work = [
     img: `${shareme}`,
     langs: ["React", "taillwind", "santiy"],
   },
-  {
-    name: "Next Event App",
-    demo: "https://event-next-bocgl00f1-enas-sello.vercel.app/",
-    code: "https://github.com/Enas-Sello/Event_next_app",
-    img: `${EventApp}`,
-    langs: ["next", "taillwind", "shadcn", "TypeScript", "React Hook Form"],
-  },
+  
   {
     name: "Amazon clone",
     demo: "https://amazon-clone-g4ct8ssx8-enassellos-projects.vercel.app/",

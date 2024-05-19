@@ -16,7 +16,7 @@ const Projects = () => {
           </p>
           {/* <p className=" text-xl text-indigo-100 mt-2">My work </p> */}
         </motion.div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 ">
           {work.map((project, i) => (
             <Card project={project} index={i} key={project.name} />
           ))}
