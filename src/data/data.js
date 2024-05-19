@@ -1,23 +1,25 @@
-import HTML from "../components/assets/html.png";
-import CSS from "../components/assets/css.png";
-import JavaScript from "../components/assets/javascript.png";
-import ReactImg from "../components/assets/react2.png";
-import redux from "../components/assets/redux.png";
-import Tailwind from "../components/assets/tailwind.png";
-import figma from "../components/assets/figma.png";
-import typeScript from "../components/assets/typescript.png";
-import threeJs from "../components/assets/threejs.svg";
-import git from "../components/assets/git.png";
-import query from "../components/assets/reactquery.png";
+import HTML from "../components/assets/html.png"
+import CSS from "../components/assets/css.png"
+import JavaScript from "../components/assets/javascript.png"
+import ReactImg from "../components/assets/react2.png"
+import redux from "../components/assets/redux.png"
+import Tailwind from "../components/assets/tailwind.png"
+import next from "../components/assets/nextjs.png"
+import typeScript from "../components/assets/typescript.png"
+import threeJs from "../components/assets/threejs.svg"
+import git from "../components/assets/git.png"
+import query from "../components/assets/reactquery.png"
+import node from "../components/assets/node.png"
+import mongo from "../components/assets/mongo.png"
 // work
-import portfolio from "../components/assets/item1.png";
-import Amazon from "../components/assets/item2.png";
-import admin from "../components/assets/admin.png";
-import netflix from "../components/assets/item3.png";
-import shareme from "../components/assets/shareme.png";
-import game from "../components/assets/sello-templet.png";
-import Elmarma from "../components/assets/almarma(2).png";
-import EventApp from "../components/assets/Next Event App.png";
+import portfolio from "../components/assets/item1.png"
+import Amazon from "../components/assets/item2.png"
+import admin from "../components/assets/admin.png"
+import netflix from "../components/assets/item3.png"
+import shareme from "../components/assets/shareme.png"
+import game from "../components/assets/sello-templet.png"
+import Elmarma from "../components/assets/almarma(2).png"
+import eveently from "../components/assets/eveently.png"
 
 //
 export const heroSection = {
@@ -49,19 +51,15 @@ export const technologies = [
   },
   {
     id: 5,
+    img: next,
+    title: "Next js",
+  },
+  {
+    id: 5,
     img: redux,
     title: "redux",
   },
-  {
-    id: 6,
-    img: figma,
-    title: "figma",
-  },
-  {
-    id: 7,
-    img: threeJs,
-    title: "threeJs",
-  },
+ 
   {
     id: 8,
     img: typeScript,
@@ -80,7 +78,17 @@ export const technologies = [
   {
     id: 11,
     img: query,
-    title: "react query",
+    title: "React query",
+  },
+  {
+    id: 12,
+    img: node,
+    title: " Node js",
+  },
+  {
+    id: 6,
+    img: mongo,
+    title: "Mongo db",
   },
 ];
 export const work = [
@@ -91,7 +99,22 @@ export const work = [
     img: `${portfolio}`,
     langs: ["React", "taillwind", "AOS"],
   },
-
+  {
+    name: "Evently",
+    code: "https://github.com/Enas-Sello/Event_next_app",
+    demo: "https://event-next-bocgl00f1-enas-sello.vercel.app/",
+    img: `${eveently}`,
+    langs: [
+      "Next Js",
+      "React hookform",
+      "taillwind",
+      "typescript",
+      "next auth",
+      "uploadthing",
+      "bcryptjs",
+      " mongo db",
+    ],
+  },
   // {
   //   name: "Elmarma",
   //   demo: "https://elfinaly.com/",
@@ -130,8 +153,8 @@ export const work = [
   },
   {
     name: "Amazon clone",
-    demo: "https://amazon-clone-front-end-five.vercel.app/",
-    code: "https://github.com/Enas-Sello/Amazon-Clone-FrontEnd",
+    demo: "https://amazon-clone-g4ct8ssx8-enassellos-projects.vercel.app/",
+    code: "https://github.com/Enas-Sello/amazon-clone",
     img: `${Amazon}`,
     langs: [
       "React",

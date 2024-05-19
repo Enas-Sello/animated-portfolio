@@ -18,7 +18,7 @@ const Card = ({ project, index }) => {
             scale: 1,
             speed: 450,
           }}
-          className="p-3 rounded-2xl  w-full bg-indigo-900 "
+          className="p-3 rounded-2xl  w-full bg-indigo-900   min-h-[450px]"
         >
           <div className=" relative w-full h-[260px] max-h-[260px]">
             <img
@@ -55,7 +55,7 @@ const Card = ({ project, index }) => {
           </div>
           <div className=" mt-3 ">
             <h3 className="  text-2xl font-extrabold">{project.name}</h3>
-            <p className="grid grid-cols-3 text-indigo-500 mt-2 w-full">
+            <p className="grid grid-cols-2 text-indigo-500 mt-2 w-full">
               {project.langs.map((lang, i) => (
                 <span key={i}>{lang}</span>
               ))}
