@@ -1,22 +1,23 @@
-import HTML from "../components/assets/html.png"
-import CSS from "../components/assets/css.png"
-import JavaScript from "../components/assets/javascript.png"
-import ReactImg from "../components/assets/react2.png"
-import redux from "../components/assets/redux.png"
-import Tailwind from "../components/assets/tailwind.png"
-import figma from "../components/assets/figma.png"
-import typeScript from "../components/assets/typescript.png"
-import threeJs from "../components/assets/threejs.svg"
-import git from "../components/assets/git.png"
-import query from "../components/assets/reactquery.png"
+import HTML from "../components/assets/html.png";
+import CSS from "../components/assets/css.png";
+import JavaScript from "../components/assets/javascript.png";
+import ReactImg from "../components/assets/react2.png";
+import redux from "../components/assets/redux.png";
+import Tailwind from "../components/assets/tailwind.png";
+import figma from "../components/assets/figma.png";
+import typeScript from "../components/assets/typescript.png";
+import threeJs from "../components/assets/threejs.svg";
+import git from "../components/assets/git.png";
+import query from "../components/assets/reactquery.png";
 // work
-import portfolio from "../components/assets/item1.png"
-import Amazon from "../components/assets/item2.png"
-import admin from "../components/assets/admin.png"
-import netflix from "../components/assets/item3.png"
-import shareme from "../components/assets/shareme.png"
-import game from "../components/assets/sello-templet.png"
-import Elmarma from "../components/assets/almarma(2).png"
+import portfolio from "../components/assets/item1.png";
+import Amazon from "../components/assets/item2.png";
+import admin from "../components/assets/admin.png";
+import netflix from "../components/assets/item3.png";
+import shareme from "../components/assets/shareme.png";
+import game from "../components/assets/sello-templet.png";
+import Elmarma from "../components/assets/almarma(2).png";
+import EventApp from "../components/assets/Next Event App.png";
 
 //
 export const heroSection = {
@@ -24,7 +25,7 @@ export const heroSection = {
   jobTitle: "Front end Web Developer",
   stack: "MERN Stack",
   // UI: 'UI/UX Designer',
-}
+};
 export const technologies = [
   {
     id: 1,
@@ -81,7 +82,7 @@ export const technologies = [
     img: query,
     title: "react query",
   },
-]
+];
 export const work = [
   {
     name: "Portfolio",
@@ -91,12 +92,12 @@ export const work = [
     langs: ["React", "taillwind", "AOS"],
   },
 
-  {
-    name: "Elmarma",
-    demo: "https://elfinaly.com/",
-    img: `${Elmarma}`,
-    langs: ["React", "bootstrap", "react Query"],
-  },
+  // {
+  //   name: "Elmarma",
+  //   demo: "https://elfinaly.com/",
+  //   img: `${Elmarma}`,
+  //   langs: ["React", "bootstrap", "react Query"],
+  // },
   {
     name: "Netflex clone",
     code: "https://github.com/Enas-Sello/Netflix_clone",
@@ -119,6 +120,13 @@ export const work = [
     code: "https://github.com/Enas-Sello/Social-media-sharing-App",
     img: `${shareme}`,
     langs: ["React", "taillwind", "santiy"],
+  },
+  {
+    name: "Next Event App",
+    demo: "https://event-next-bocgl00f1-enas-sello.vercel.app/",
+    code: "https://github.com/Enas-Sello/Event_next_app",
+    img: `${EventApp}`,
+    langs: ["next", "taillwind", "shadcn", "TypeScript", "React Hook Form"],
   },
   {
     name: "Amazon clone",
@@ -151,4 +159,4 @@ export const work = [
     video:
       "https://drive.google.com/file/d/16IQ27xriyxCDpC6ywaq3sE328PZNOpg2/view",
   },
-]
+];
