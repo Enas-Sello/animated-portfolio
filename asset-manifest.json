@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/animated-portfolio/static/css/main.2799616d.css",
-    "main.js": "/animated-portfolio/static/js/main.07ea7057.js",
+    "main.js": "/animated-portfolio/static/js/main.645709b0.js",
     "static/js/787.1ed0c42c.chunk.js": "/animated-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/jack-transformed.glb": "/animated-portfolio/static/media/jack-transformed.9d07cbe9573b69fe47d1.glb",
     "static/media/sello-templet.png": "/animated-portfolio/static/media/sello-templet.99bcd9a37e01c300f5af.png",
@@ -28,13 +28,12 @@
     "static/media/nextjs.png": "/animated-portfolio/static/media/nextjs.8d64d64843058b1c9a96.png",
     "static/media/javascript.png": "/animated-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/animated-portfolio/index.html",
-    "static/media/threejs.svg": "/animated-portfolio/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "main.2799616d.css.map": "/animated-portfolio/static/css/main.2799616d.css.map",
-    "main.07ea7057.js.map": "/animated-portfolio/static/js/main.07ea7057.js.map",
+    "main.645709b0.js.map": "/animated-portfolio/static/js/main.645709b0.js.map",
     "787.1ed0c42c.chunk.js.map": "/animated-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2799616d.css",
-    "static/js/main.07ea7057.js"
+    "static/js/main.645709b0.js"
   ]
 }
