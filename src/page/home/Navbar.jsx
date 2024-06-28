@@ -4,7 +4,7 @@ import Aos from "aos";
 import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import Button from "../button/Button";
+import Button from "../../components/button/Button";
 import { PrfileLinks } from "./HeroSection";
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
     link2: "work",
     link3: "skills",
     link4: "About",
-    link5: "contactMe",
+    // link5: "contactMe",
   };
 
   const [nav, setNave] = useState(false);

@@ -1,6 +1,6 @@
 import React from "react"
 import { motion } from "framer-motion"
-import { fadeIn } from "../../utils/motion"
+import { fadeIn } from "../utils/motion"
 import { GoMarkGithub } from "react-icons/go"
 import { FaLink } from "react-icons/fa"
 import { MdVideoCameraBack } from "react-icons/md"
@@ -53,11 +53,13 @@ const Card = ({ project, index }) => {
               )}
             </div>
           </div>
-          <div className=" mt-3 ">
+          <div className=" mt-3 capitalize ">
             <h3 className="  text-2xl font-extrabold">{project.name}</h3>
-            <p className="grid grid-cols-2 text-indigo-500 mt-2 w-full">
+            <p className="grid grid-cols-2 lg:grid-cols-3 gap-2 text-sm md:text-base text-indigo-500 mt-2 w-full whitespace-nowrap">
               {project.langs.map((lang, i) => (
-                <span key={i}>{lang}</span>
+                <span className="col-span-1" key={i}>
+                  {lang}
+                </span>
               ))}
             </p>
           </div>
@@ -101,7 +103,7 @@ const Card = ({ project, index }) => {
           </div>
           <div className=" mt-3 ">
             <h3 className="  text-2xl font-extrabold">{project.name}</h3>
-            <p className="grid grid-cols-3 text-indigo-500 mt-2 w-full">
+            <p className="grid grid-cols-3 sm:grid-cols-2 text-indigo-500 mt-2 w-full">
               {project.langs.map((lang, i) => (
                 <span key={i}>{lang}</span>
               ))}

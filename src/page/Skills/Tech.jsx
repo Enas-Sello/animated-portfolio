@@ -1,7 +1,7 @@
 import React from "react"
 import { technologies } from "../../data/data"
 import { fadeIn } from "../../utils/motion"
-import BallCanvas from "../3D/BallCanvas"
+import BallCanvas from "../../components/3D/BallCanvas"
 import { motion } from "framer-motion"
 
 const Tech = () => {

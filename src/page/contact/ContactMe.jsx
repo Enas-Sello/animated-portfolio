@@ -3,8 +3,8 @@ import SectionWrapper from "../../utils/SectionWrapper"
 import emailjs from "@emailjs/browser"
 import { slideIn } from "../../utils/motion"
 import { motion } from "framer-motion"
-import ContactCanvas from "../3D/ContactCanvas"
-import contact1 from "../assets/contact2.png"
+// import ContactCanvas from "../../components/3D/ContactCanvas"
+import contact1 from "../../components/assets/contact2.png"
 
 const ContactMe = () => {
   const [form, setForm] = useState({

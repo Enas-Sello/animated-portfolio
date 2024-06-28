@@ -4,10 +4,10 @@ import { Link } from "react-scroll";
 import { slideIn, textVariant } from "../../utils/motion";
 import { motion } from "framer-motion";
 import { heroSection } from "../../data/data";
-import HeroCanvas from "../3D/HeroCanvas";
+// import HeroCanvas from "../../components/3D/HeroCanvas"
 import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import heroImg from "../assets/heroSection.png";
+import heroImg from "../../components/assets/heroSection.png"
 
 export const PrfileLinks = {
   Linkedin: "https://www.linkedin.com/in/enas-sello-36153219a/",
@@ -71,7 +71,7 @@ const HeroSection = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className=" my-8 rounded-2xl col-span-2 lg:col-span-3 w-full h-full  flex  justify-center items-center "
       >
-        <img className=" object-cover" src={heroImg} alt="" />
+        <img className="object-cover" src={heroImg} alt="" />
       </motion.div>
     </div>
   );

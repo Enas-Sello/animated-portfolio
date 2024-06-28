@@ -1,9 +1,9 @@
 import React from "react"
 import { motion } from "framer-motion"
 import { textVariant } from "../../utils/motion"
-import Card from "./Card"
 import { work } from "../../data/data"
 import SectionWrapper from "../../utils/SectionWrapper"
+import Card from "../../components/Card"
 
 const Projects = () => {
   return (

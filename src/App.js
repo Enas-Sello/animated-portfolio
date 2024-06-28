@@ -1,11 +1,12 @@
 import "aos/dist/aos.css"
 import "./App.css"
-import Home from "./components/home/Home"
-import Projects from "./components/Projects/Projects"
-import Skills from "./components/Skills/Skills"
-import ContactMe from "./components/contact/ContactMe"
+import Projects from "./page/Projects/Projects"
+import Skills from "./page/Skills/Skills"
+// import ContactMe from "./page/contact/ContactMe"
 import Footer from "./components/footer/footer"
 import StarsCanvas from "./components/3D/StarsCanvas"
+import Home from "./page/home/Home"
+import OnGoingLearning from "./page/OnGoingLearning/OnGoingLearning"
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <StarsCanvas />
         <Home />
         <Projects />
+        <OnGoingLearning />
         <Skills />
-        <ContactMe />
+        {/* <ContactMe /> */}
         <Footer />
       </div>
     </div>

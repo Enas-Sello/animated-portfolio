@@ -6,7 +6,7 @@ import redux from "../components/assets/redux.png"
 import Tailwind from "../components/assets/tailwind.png"
 import next from "../components/assets/nextjs.png"
 import typeScript from "../components/assets/typescript.png"
-import threeJs from "../components/assets/threejs.svg"
+// import threeJs from "../components/assets/threejs.svg"
 import git from "../components/assets/git.png"
 import query from "../components/assets/reactquery.png"
 import node from "../components/assets/node.png"
@@ -27,7 +27,7 @@ export const heroSection = {
   jobTitle: "Front end Web Developer",
   stack: "MERN Stack",
   // UI: 'UI/UX Designer',
-};
+}
 export const technologies = [
   {
     id: 1,
@@ -59,7 +59,7 @@ export const technologies = [
     img: redux,
     title: "redux",
   },
- 
+
   {
     id: 8,
     img: typeScript,
@@ -90,42 +90,21 @@ export const technologies = [
     img: mongo,
     title: "Mongo db",
   },
-];
+]
 export const work = [
   {
     name: "Portfolio",
     code: "https://github.com/Enas-Sello/portfolio",
     demo: "https://enas-sello.github.io/portfolio/",
     img: `${portfolio}`,
-    langs: ["React", "taillwind", "AOS"],
+    langs: ["React", "taillwindCss", "AOS"],
   },
-  {
-    name: "Evently",
-    code: "https://github.com/Enas-Sello/Event_next_app",
-    demo: "https://event-next-bocgl00f1-enas-sello.vercel.app/",
-    img: `${eveently}`,
-    langs: [
-      "Next Js",
-      "React hookform",
-      "taillwind",
-      "typescript",
-      "next auth",
-      "uploadthing",
-      "bcryptjs",
-      "mongo db",
-    ],
-  },
-  // {
-  //   name: "Elmarma",
-  //   demo: "https://elfinaly.com/",
-  //   img: `${Elmarma}`,
-  //   langs: ["React", "bootstrap", "react Query"],
-  // },
+  
   {
     name: "Netflex clone",
     code: "https://github.com/Enas-Sello/Netflix_clone",
     img: `${netflix}`,
-    langs: ["React", "taillwind", "firebase"],
+    langs: ["React", "TaillwindCss", "firebase"],
     video:
       "https://drive.google.com/file/d/1_lnSsloHJP9j_cSsvL62jvkG9uuBRCXa/view",
   },
@@ -137,14 +116,7 @@ export const work = [
     img: `${game}`,
     langs: ["HTML", "CSS", "javaScript"],
   },
-  {
-    name: "Share Me App",
-    demo: "https://shareme-sello.netlify.app/",
-    code: "https://github.com/Enas-Sello/Social-media-sharing-App",
-    img: `${shareme}`,
-    langs: ["React", "taillwind", "santiy"],
-  },
-  
+
   {
     name: "Amazon clone",
     demo: "https://amazon-clone-g4ct8ssx8-enassellos-projects.vercel.app/",
@@ -176,4 +148,50 @@ export const work = [
     video:
       "https://drive.google.com/file/d/16IQ27xriyxCDpC6ywaq3sE328PZNOpg2/view",
   },
-];
+]
+export const OnGoing = [
+ 
+  {
+    name: "Evently",
+    code: "https://github.com/Enas-Sello/Event_next_app",
+    demo: "https://event-next-bocgl00f1-enas-sello.vercel.app/",
+    img: `${eveently}`,
+    langs: [
+      "Next Js",
+      "React hookform",
+      "taillwindCss",
+      "typescript",
+      "next auth",
+      "uploadthing",
+      "bcryptjs",
+      "mongo db",
+    ],
+  },
+  {
+    name: "Elmarma",
+    demo: "https://elmarma.vercel.app/en",
+    code: "https://github.com/Enas-Sello/elmarma_",
+    img: `${Elmarma}`,
+    langs: [
+      "Next Js",
+      "typescript",
+      "taillwindCss",
+      "react Query",
+      "i18next",
+      "axios",
+      "shadcn",
+      "next-themes",
+    ],
+  },
+
+  
+  {
+    name: "Share Me App",
+    demo: "https://shareme-sello.netlify.app/",
+    code: "https://github.com/Enas-Sello/Social-media-sharing-App",
+    img: `${shareme}`,
+    langs: ["React", "taillwindCss", "santiy"],
+  },
+
+ 
+]

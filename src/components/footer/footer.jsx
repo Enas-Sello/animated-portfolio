@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
-import { PrfileLinks } from "../home/HeroSection";
+import { PrfileLinks } from "../../page/home/HeroSection";
 function Footer() {
   return (
     <div name="footer" className="w-full  text-whte justify-center p-4">
