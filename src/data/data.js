@@ -150,7 +150,6 @@ export const work = [
   },
 ]
 export const OnGoing = [
- 
   {
     name: "Evently",
     code: "https://github.com/Enas-Sello/Event_next_app",
@@ -170,7 +169,7 @@ export const OnGoing = [
   {
     name: "Elmarma",
     demo: "https://elmarma.vercel.app/en",
-    code: "https://github.com/Enas-Sello/elmarma_",
+    code: "https://github.com/Enas-Sello/elmarma_2",
     img: `${Elmarma}`,
     langs: [
       "Next Js",
@@ -184,7 +183,6 @@ export const OnGoing = [
     ],
   },
 
-  
   {
     name: "Share Me App",
     demo: "https://shareme-sello.netlify.app/",
@@ -192,6 +190,4 @@ export const OnGoing = [
     img: `${shareme}`,
     langs: ["React", "taillwindCss", "santiy"],
   },
-
- 
 ]
